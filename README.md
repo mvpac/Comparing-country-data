@@ -1,2 +1,2 @@
 # histogram1
-gistogram using matplotlib
+histogram using matplotlib
