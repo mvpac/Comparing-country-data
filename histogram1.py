@@ -30,6 +30,7 @@ print('Median GDP per Capita in Europe:')
 print(europe_2007.gdpPerCapita.median())
 
 #ploting using pyplot
+fig,ax = plt.subplots(figsize=(10,8)) #set figsize in inches
 plt.subplot(211)
 plt.hist(asia_2007.gdpPerCapita, 20, range=(0,50000), edgecolor='black')
 plt.ylabel('Asia')
@@ -59,6 +60,7 @@ print('Median Life Expectancy in Americas:')
 print(america_1997.lifeExpectancy.median())
 
 #plot
+fig,ax = plt.subplots(figsize=(10,8)) #set figsize in inches
 plt.subplot(211)
 plt.title('Distribution of Age in Europe and Americas')
 plt.hist(europe_1997.lifeExpectancy, range=(55,85), edgecolor = 'black')
